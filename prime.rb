@@ -1,4 +1,6 @@
 def prime? (num)
-  prime.each do |n|
+  if num < 2 
+    false 
+  elseif
     
 end 
