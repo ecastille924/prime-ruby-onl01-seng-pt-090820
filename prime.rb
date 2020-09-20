@@ -3,6 +3,7 @@ def prime? (num)
     false 
   elseif
     (2..num -1).to_a.all? do |n|
-      num % n 
-    
+      num % n != 0 
+    end
+  end
 end 
